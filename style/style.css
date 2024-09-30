@@ -2,11 +2,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 body {
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(209, 209, 209);
 }
 
 .wrap {
@@ -24,4 +23,22 @@ body {
   color: black;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 10px;
-}/*# sourceMappingURL=style.css.map */
+}
+.main{
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  
+}
+.main img{
+  margin-top: 80px;
+  width: 500px;
+  margin-right: 150px;
+  background: radial-gradient(rgb(65, 65, 65) 15%,rgb(209, 209, 209) 70%,rgb(209, 209, 209) 80%,rgb(209, 209, 209) 100%);
+}
+
+.main__infoo{
+  margin-top: 100px;
+  display: flex;
+  
+}
